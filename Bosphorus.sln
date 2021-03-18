@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestorAPI", "InvestorAPI\InvestorAPI.csproj", "{7425F047-85DD-4DBF-B937-E37D7182D43C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity", "Entity", "{79A1AA62-7F3B-4887-A9C5-3531DAF5C72B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{ACDA28AD-2AC6-49AB-B0B8-4C33C5A43C95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,9 @@ Global
 		{7425F047-85DD-4DBF-B937-E37D7182D43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7425F047-85DD-4DBF-B937-E37D7182D43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7425F047-85DD-4DBF-B937-E37D7182D43C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D1489B8-01AF-440F-9E8C-125E73D3F1CE} = {79A1AA62-7F3B-4887-A9C5-3531DAF5C72B}
+		{7425F047-85DD-4DBF-B937-E37D7182D43C} = {ACDA28AD-2AC6-49AB-B0B8-4C33C5A43C95}
 	EndGlobalSection
 EndGlobal
